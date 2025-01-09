@@ -38,22 +38,20 @@ int main(int argc, char* argv[]) {
   if (number < 0) {
     std::cout << "El numero introducido no es un numero positivo" << std::endl;
     exit(EXIT_SUCCESS);
-
   } else {
-   while(number > 0) {
-    if(number == 1) {
-      break;
-    } else if (number % 2 == 0) {
-      number = number / 2;
-    } else {
-       number = (3 * number) + 1;
-    }
-
     std::cout << number << " "; 
-  }
 
+    while(number > 0) {
+      if(number == 1) {
+        break;
+      } else if (number % 2 == 0) {
+        number = number / 2;
+      } else {
+        number = (3 * number) + 1;
+      }
+      std::cout << number << " "; 
+    }
+  }
 
   return 0;
-  }
-
 }

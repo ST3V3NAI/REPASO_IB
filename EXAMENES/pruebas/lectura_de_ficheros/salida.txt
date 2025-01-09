@@ -1,0 +1,3 @@
+Hola, este es un archivo de texto.
+Tiene varias líneas.
+Escribe un programa para leerlo.
